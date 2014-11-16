@@ -21,6 +21,17 @@
 		7726A18A1A180AD000B4D2D7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7726A1861A180ACF00B4D2D7 /* libz.dylib */; };
 		7726A18B1A180AD000B4D2D7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7726A1871A180ACF00B4D2D7 /* MobileCoreServices.framework */; };
 		7726A18C1A180AD000B4D2D7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7726A1881A180ACF00B4D2D7 /* SystemConfiguration.framework */; };
+		7726A1E51A18209A00B4D2D7 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7726A18E1A18209A00B4D2D7 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7726A1E61A18209A00B4D2D7 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7726A1911A18209A00B4D2D7 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7726A1E71A18209A00B4D2D7 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7726A1931A18209A00B4D2D7 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7726A1E81A18209A00B4D2D7 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7726A1951A18209A00B4D2D7 /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7726A1E91A18209A00B4D2D7 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7726A1971A18209A00B4D2D7 /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7726A1EA1A18209A00B4D2D7 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7726A1991A18209A00B4D2D7 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7726A1EB1A18209A00B4D2D7 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 7726A19D1A18209A00B4D2D7 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7726A1EC1A18209A00B4D2D7 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7726A19F1A18209A00B4D2D7 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7726A1EE1A18209A00B4D2D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7726A1A51A18209A00B4D2D7 /* LaunchScreen.xib */; };
+		7726A1EF1A18209A00B4D2D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7726A1A71A18209A00B4D2D7 /* Main.storyboard */; };
+		7726A2111A18248D00B4D2D7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7726A2101A18248D00B4D2D7 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +65,30 @@
 		7726A1861A180ACF00B4D2D7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		7726A1871A180ACF00B4D2D7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		7726A1881A180ACF00B4D2D7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7726A18D1A18209A00B4D2D7 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIAuthenticationDialog.h; path = "Weather Watcher/ASIAuthenticationDialog.h"; sourceTree = "<group>"; };
+		7726A18E1A18209A00B4D2D7 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIAuthenticationDialog.m; path = "Weather Watcher/ASIAuthenticationDialog.m"; sourceTree = "<group>"; };
+		7726A18F1A18209A00B4D2D7 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASICacheDelegate.h; path = "Weather Watcher/ASICacheDelegate.h"; sourceTree = "<group>"; };
+		7726A1901A18209A00B4D2D7 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDataCompressor.h; path = "Weather Watcher/ASIDataCompressor.h"; sourceTree = "<group>"; };
+		7726A1911A18209A00B4D2D7 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDataCompressor.m; path = "Weather Watcher/ASIDataCompressor.m"; sourceTree = "<group>"; };
+		7726A1921A18209A00B4D2D7 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDataDecompressor.h; path = "Weather Watcher/ASIDataDecompressor.h"; sourceTree = "<group>"; };
+		7726A1931A18209A00B4D2D7 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDataDecompressor.m; path = "Weather Watcher/ASIDataDecompressor.m"; sourceTree = "<group>"; };
+		7726A1941A18209A00B4D2D7 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDownloadCache.h; path = "Weather Watcher/ASIDownloadCache.h"; sourceTree = "<group>"; };
+		7726A1951A18209A00B4D2D7 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDownloadCache.m; path = "Weather Watcher/ASIDownloadCache.m"; sourceTree = "<group>"; };
+		7726A1961A18209A00B4D2D7 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIFormDataRequest.h; path = "Weather Watcher/ASIFormDataRequest.h"; sourceTree = "<group>"; };
+		7726A1971A18209A00B4D2D7 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIFormDataRequest.m; path = "Weather Watcher/ASIFormDataRequest.m"; sourceTree = "<group>"; };
+		7726A1981A18209A00B4D2D7 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequest.h; path = "Weather Watcher/ASIHTTPRequest.h"; sourceTree = "<group>"; };
+		7726A1991A18209A00B4D2D7 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIHTTPRequest.m; path = "Weather Watcher/ASIHTTPRequest.m"; sourceTree = "<group>"; };
+		7726A19A1A18209A00B4D2D7 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestConfig.h; path = "Weather Watcher/ASIHTTPRequestConfig.h"; sourceTree = "<group>"; };
+		7726A19B1A18209A00B4D2D7 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestDelegate.h; path = "Weather Watcher/ASIHTTPRequestDelegate.h"; sourceTree = "<group>"; };
+		7726A19C1A18209A00B4D2D7 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIInputStream.h; path = "Weather Watcher/ASIInputStream.h"; sourceTree = "<group>"; };
+		7726A19D1A18209A00B4D2D7 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIInputStream.m; path = "Weather Watcher/ASIInputStream.m"; sourceTree = "<group>"; };
+		7726A19E1A18209A00B4D2D7 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASINetworkQueue.h; path = "Weather Watcher/ASINetworkQueue.h"; sourceTree = "<group>"; };
+		7726A19F1A18209A00B4D2D7 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASINetworkQueue.m; path = "Weather Watcher/ASINetworkQueue.m"; sourceTree = "<group>"; };
+		7726A1A01A18209A00B4D2D7 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIProgressDelegate.h; path = "Weather Watcher/ASIProgressDelegate.h"; sourceTree = "<group>"; };
+		7726A1A61A18209A00B4D2D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		7726A1A81A18209A00B4D2D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		7726A20F1A18248D00B4D2D7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		7726A2101A18248D00B4D2D7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +119,8 @@
 		7726A14D1A18050C00B4D2D7 = {
 			isa = PBXGroup;
 			children = (
+				7726A20D1A1820AB00B4D2D7 /* ASI */,
+				7726A1A41A18209A00B4D2D7 /* Base.lproj */,
 				7726A1851A180ACF00B4D2D7 /* CoreGraphics.framework */,
 				7726A1861A180ACF00B4D2D7 /* libz.dylib */,
 				7726A1871A180ACF00B4D2D7 /* MobileCoreServices.framework */,
@@ -145,6 +182,54 @@
 				7726A1741A18050E00B4D2D7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7726A1A41A18209A00B4D2D7 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				7726A1A51A18209A00B4D2D7 /* LaunchScreen.xib */,
+				7726A1A71A18209A00B4D2D7 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = "Weather Watcher/Base.lproj";
+			sourceTree = "<group>";
+		};
+		7726A20D1A1820AB00B4D2D7 /* ASI */ = {
+			isa = PBXGroup;
+			children = (
+				7726A20E1A18248D00B4D2D7 /* Reachability */,
+				7726A18E1A18209A00B4D2D7 /* ASIAuthenticationDialog.m */,
+				7726A18F1A18209A00B4D2D7 /* ASICacheDelegate.h */,
+				7726A1901A18209A00B4D2D7 /* ASIDataCompressor.h */,
+				7726A1911A18209A00B4D2D7 /* ASIDataCompressor.m */,
+				7726A1921A18209A00B4D2D7 /* ASIDataDecompressor.h */,
+				7726A1931A18209A00B4D2D7 /* ASIDataDecompressor.m */,
+				7726A1941A18209A00B4D2D7 /* ASIDownloadCache.h */,
+				7726A1951A18209A00B4D2D7 /* ASIDownloadCache.m */,
+				7726A1961A18209A00B4D2D7 /* ASIFormDataRequest.h */,
+				7726A1971A18209A00B4D2D7 /* ASIFormDataRequest.m */,
+				7726A1981A18209A00B4D2D7 /* ASIHTTPRequest.h */,
+				7726A1991A18209A00B4D2D7 /* ASIHTTPRequest.m */,
+				7726A19A1A18209A00B4D2D7 /* ASIHTTPRequestConfig.h */,
+				7726A19B1A18209A00B4D2D7 /* ASIHTTPRequestDelegate.h */,
+				7726A19C1A18209A00B4D2D7 /* ASIInputStream.h */,
+				7726A19D1A18209A00B4D2D7 /* ASIInputStream.m */,
+				7726A19E1A18209A00B4D2D7 /* ASINetworkQueue.h */,
+				7726A19F1A18209A00B4D2D7 /* ASINetworkQueue.m */,
+				7726A1A01A18209A00B4D2D7 /* ASIProgressDelegate.h */,
+				7726A18D1A18209A00B4D2D7 /* ASIAuthenticationDialog.h */,
+			);
+			name = ASI;
+			sourceTree = "<group>";
+		};
+		7726A20E1A18248D00B4D2D7 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				7726A20F1A18248D00B4D2D7 /* Reachability.h */,
+				7726A2101A18248D00B4D2D7 /* Reachability.m */,
+			);
+			name = Reachability;
+			path = "../../Downloads/pokeb-asi-http-request-9051a33/External/Reachability";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +312,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7726A1EE1A18209A00B4D2D7 /* LaunchScreen.xib in Resources */,
+				7726A1EF1A18209A00B4D2D7 /* Main.storyboard in Resources */,
 				7726A1651A18050D00B4D2D7 /* Main.storyboard in Resources */,
 				7726A16A1A18050D00B4D2D7 /* LaunchScreen.xib in Resources */,
 				7726A1671A18050D00B4D2D7 /* Images.xcassets in Resources */,
@@ -247,9 +334,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7726A1E61A18209A00B4D2D7 /* ASIDataCompressor.m in Sources */,
 				7726A1621A18050D00B4D2D7 /* ViewController.m in Sources */,
+				7726A1EA1A18209A00B4D2D7 /* ASIHTTPRequest.m in Sources */,
+				7726A1E51A18209A00B4D2D7 /* ASIAuthenticationDialog.m in Sources */,
+				7726A1E91A18209A00B4D2D7 /* ASIFormDataRequest.m in Sources */,
 				7726A15F1A18050D00B4D2D7 /* AppDelegate.m in Sources */,
+				7726A1EB1A18209A00B4D2D7 /* ASIInputStream.m in Sources */,
 				7726A15C1A18050D00B4D2D7 /* main.m in Sources */,
+				7726A1EC1A18209A00B4D2D7 /* ASINetworkQueue.m in Sources */,
+				7726A1E71A18209A00B4D2D7 /* ASIDataDecompressor.m in Sources */,
+				7726A2111A18248D00B4D2D7 /* Reachability.m in Sources */,
+				7726A1E81A18209A00B4D2D7 /* ASIDownloadCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +382,22 @@
 				7726A1691A18050D00B4D2D7 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		7726A1A51A18209A00B4D2D7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7726A1A61A18209A00B4D2D7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		7726A1A71A18209A00B4D2D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7726A1A81A18209A00B4D2D7 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -450,6 +562,7 @@
 				7726A17B1A18050E00B4D2D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7726A17C1A18050E00B4D2D7 /* Build configuration list for PBXNativeTarget "Weather WatcherTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +571,7 @@
 				7726A17E1A18050E00B4D2D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,9 +9,9 @@
 #import "AppDelegate.h"
 #import <Aeris/Aeris.h>
 // If using the AerisUI.framework…
-#import <AerisUI/AerisUI.framework>
+//#import <AerisUI/AerisUI.framework>
 // If using the AerisMap framework…
-#import <AerisMap/AerisMap.framework>
+//#import <AerisMap/AerisMap.framework>
 
 @interface AppDelegate ()
 
