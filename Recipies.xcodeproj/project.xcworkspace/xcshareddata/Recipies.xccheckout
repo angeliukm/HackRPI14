@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B7064A90-C388-4FD7-A0C5-021B9987874E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Recipies</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EB0C499C7A03CD6BD25036D83EBED2CDF88FDC71</key>
+		<string>https://github.com/angeliukm/HackRPI14.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Recipies.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EB0C499C7A03CD6BD25036D83EBED2CDF88FDC71</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/angeliukm/HackRPI14.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EB0C499C7A03CD6BD25036D83EBED2CDF88FDC71</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EB0C499C7A03CD6BD25036D83EBED2CDF88FDC71</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WeatherWatcher</string>
+		</dict>
+	</array>
+</dict>
+</plist>
