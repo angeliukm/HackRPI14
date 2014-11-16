@@ -1,4 +1,4 @@
-HackRPI14
-=========
+HackRPI
+=======
 
-2014 hackathon project
+PhonemeFinder
