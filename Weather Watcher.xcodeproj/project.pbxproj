@@ -32,6 +32,7 @@
 		7726A1EE1A18209A00B4D2D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7726A1A51A18209A00B4D2D7 /* LaunchScreen.xib */; };
 		7726A1EF1A18209A00B4D2D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7726A1A71A18209A00B4D2D7 /* Main.storyboard */; };
 		7726A2111A18248D00B4D2D7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7726A2101A18248D00B4D2D7 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		77D2AA1D1A186A8700AA9C01 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D2AA1C1A186A8700AA9C01 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-obj-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,8 @@
 		7726A1A81A18209A00B4D2D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		7726A20F1A18248D00B4D2D7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		7726A2101A18248D00B4D2D7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		77D2AA1B1A186A8600AA9C01 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = ../../Downloads/AerisiOS_1.1.86/Samples/AerisCatalog/Vendor/JSONKit/JSONKit.h; sourceTree = "<group>"; };
+		77D2AA1C1A186A8700AA9C01 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = ../../Downloads/AerisiOS_1.1.86/Samples/AerisCatalog/Vendor/JSONKit/JSONKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 		7726A14D1A18050C00B4D2D7 = {
 			isa = PBXGroup;
 			children = (
+				77D2AA1B1A186A8600AA9C01 /* JSONKit.h */,
+				77D2AA1C1A186A8700AA9C01 /* JSONKit.m */,
 				7726A20D1A1820AB00B4D2D7 /* ASI */,
 				7726A1A41A18209A00B4D2D7 /* Base.lproj */,
 				7726A1851A180ACF00B4D2D7 /* CoreGraphics.framework */,
@@ -281,6 +286,11 @@
 				TargetAttributes = {
 					7726A1551A18050C00B4D2D7 = {
 						CreatedOnToolsVersion = 6.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					7726A16E1A18050D00B4D2D7 = {
 						CreatedOnToolsVersion = 6.1;
@@ -340,6 +350,7 @@
 				7726A1E51A18209A00B4D2D7 /* ASIAuthenticationDialog.m in Sources */,
 				7726A1E91A18209A00B4D2D7 /* ASIFormDataRequest.m in Sources */,
 				7726A15F1A18050D00B4D2D7 /* AppDelegate.m in Sources */,
+				77D2AA1D1A186A8700AA9C01 /* JSONKit.m in Sources */,
 				7726A1EB1A18209A00B4D2D7 /* ASIInputStream.m in Sources */,
 				7726A15C1A18050D00B4D2D7 /* main.m in Sources */,
 				7726A1EC1A18209A00B4D2D7 /* ASINetworkQueue.m in Sources */,

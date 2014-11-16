@@ -7,8 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Aeris/Aeris.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController //<AFObjectLoaderDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UILabel *location;
+
+/*{
+    IBOutlet UITextField *textField;
+    NSString *String;
+}*/
+
+//@property (strong, nonatomic) IBOutlet UITextField *textField;
+
+//- (IBAction)changePlace;
+
+
+
 
 
 @end
